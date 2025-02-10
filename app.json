@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "CafeLove",
+    "slug": "CafeLove",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "cafelove",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cafelove.app"
+    },
+    "android": {
+      "package": "com.cafelove.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
